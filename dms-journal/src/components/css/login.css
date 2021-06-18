@@ -1,6 +1,7 @@
-.form-group {
+.login_form {
   padding: 20px;
-  width: fit-content;
+  width: 350px;
+  text-align: left;
 }
 
 .login {
@@ -9,11 +10,12 @@
 }
 
 .signup {
-  margin-left: 60%;
+  margin-left: 40%;
   padding: 10px;
   margin-top: -15px;
 }
 
-#label {
-  width: fit-content;
+.input {
+  display: inline-block;
+  width: 100%;
 }

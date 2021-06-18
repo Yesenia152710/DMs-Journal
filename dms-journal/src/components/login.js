@@ -6,20 +6,16 @@ function Login() {
   return (
     <div className="login">
       <form>
-        <div className="form-group row">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">
-            Email
-          </label>
-          <div class="col-sm-10">
-            <input type="email" className="form-control" id="inputEmail3" placeholder="Email" />
+        <div className="login_form">
+          <label className="login_lable">Email</label>
+          <div className="col-sm-10">
+            <input type="email" className="input" id="inputEmail3" placeholder="Email" />
           </div>
         </div>
-        <div className="form-group row">
-          <label for="inputPassword3" class="col-sm-2 col-form-label">
-            Password
-          </label>
+        <div className="login_form">
+          <label className="login_lable">Password</label>
           <div class="col-sm-10">
-            <input type="password" className="form-control" id="inputPassword3" placeholder="Password" />
+            <input type="password" className=" input" id="inputPassword3" placeholder="Password" />
           </div>
         </div>
         <div className="signup">
