@@ -1,5 +1,12 @@
 import "./App.css";
-import Login from "./components/login";
+import DM from "./components/dm";
+import NPC from "./components/npc";
+import Players from "./components/players";
+import Towns from "./components/towns";
+import Maps from "./components/maps";
+import Initiative from "./components/initiative";
+import Lore from "./components/lore";
+import Notes from "./components/notes";
 import SignUp from "./components/signup";
 import LandingPage from "./components/home";
 import { Route } from "react-router-dom";
@@ -27,6 +34,14 @@ function App() {
         )}
       />
       <Route path="/signup" component={SignUp} />
+      <Route path="/account" component={DM} />
+      <Route path="/initiative" component={Initiative} />
+      <Route path="/towns" component={Towns} />
+      <Route path="/players" component={Players} />
+      <Route path="/npcs" component={NPC} />
+      <Route path="/notes" component={Notes} />
+      <Route path="/maps" component={Maps} />
+      <Route path="/lore" component={Lore} />
     </div>
   );
 }

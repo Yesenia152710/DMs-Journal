@@ -1,0 +1,26 @@
+.dms_nav {
+  position: absolute;
+  top: 60px;
+  right: 30%;
+}
+
+.nav {
+  display: flex;
+}
+
+li {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a:hover {
+  background-color: burlywood !important;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
