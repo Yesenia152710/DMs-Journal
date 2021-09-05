@@ -2,6 +2,6 @@
   text-align: center;
 }
 
-.image {
-  z-index: -2;
+body {
+  background-color: #8a9ea7 !important;
 }
