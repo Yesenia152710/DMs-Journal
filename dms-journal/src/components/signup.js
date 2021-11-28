@@ -2,17 +2,22 @@ import React from "react";
 
 function SignUp() {
   return (
-    <div>
-      <form>
-        <label>First Name</label>
-        <input type="text" placeholder="First Name" />
-        <label>Password</label>
-        <input type="password" placeholder="password" />
-        <label>Confirm Password</label>
-        <input type="password" placeholder="Confirm Password" />
-        <button>Submit</button>
-      </form>
-    </div>
+    <form style= {{ width: 400}} >
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control"  id="exampleInputPassword1" placeholder="Password" />
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+   
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
   );
 }
 
