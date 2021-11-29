@@ -38,7 +38,7 @@ function Journal() {
   <div class="card-body">
     <h5 class="card-title">Mage</h5>
     <p class="card-text">Background: Grew up in a temple with other monks before finding interest in the arcane</p>
-    <a href="#" class="btn btn-primary">Player Info</a>
+    <a href="player/" class="btn btn-primary">Player Info</a>
   </div>
 </div>
 
@@ -47,7 +47,7 @@ function Journal() {
   <div class="card-body">
     <h5 class="card-title">Barbarian</h5>
     <p class="card-text">Background: Fell in love with the fighting ring after watching his father fight.</p>
-    <a href="#" class="btn btn-primary">Player Info</a>
+    <a href="player/" class="btn btn-primary">Player Info</a>
   </div>
 </div>
 
